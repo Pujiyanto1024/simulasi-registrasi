@@ -1,13 +1,56 @@
+[Demo Application](https://sim-reg.pujiyanto.my.id/) untuk cek aplikasi secara online
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+Clone Repository:
+```bash
+git clone https://github.com/Pujiyanto1024/simulasi-registrasi.git
+```
+
+Install dependency
+```bash
+npm install
+```
+
+Apabila ada error seperti ini:
+```bash
+npm ERR! node_modules/react-zoom-pan-pinch
+npm ERR!   react-zoom-pan-pinch@"^2.1.3" from the root project
+npm ERR!
+npm ERR! Conflicting peer dependency: react@17.0.2
+npm ERR! node_modules/react
+npm ERR!   peer react@"^17.0.2" from react-zoom-pan-pinch@2.1.3
+npm ERR!   node_modules/react-zoom-pan-pinch
+npm ERR!     react-zoom-pan-pinch@"^2.1.3" from the root project
+npm ERR!
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+```
+Install dengan cara:
+```bash
+npm install --legacy-peer-deps
+```
+
+
+run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
+```
+
+Build web:
+```bash
+npm run build
+```
+
+Menjalankan hasil build
+```bash
+npm run start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
