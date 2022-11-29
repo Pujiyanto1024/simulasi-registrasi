@@ -1,4 +1,4 @@
-[Demo Application](https://sim-reg.pujiyanto.my.id/) untuk cek aplikasi secara online
+[Demo Application](https://simulasi-registrasi-960z2dndx-pujiyanto1024.vercel.app/) untuk cek aplikasi secara online
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
